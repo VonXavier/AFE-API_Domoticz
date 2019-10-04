@@ -72,32 +72,17 @@ namespace http {
 		static const _mappedsensorname mappedsensorname[] =
 		{
 			{ 249, 0xF9, 0x01 }, //Air Quality
-			{ 7,   0xF3, 0x16 }, //Alert
-			{ 9,   0x59, 0x01 }, //Ampere (3 Phase)
-			{ 19,  0xF3, 0x17 }, //Ampere (1 Phase)
 			{ 11,  0xF3, 0x1A }, //Barometer
 			{ 113, 0x71, 0x00 }, //Counter
 			{ 14,  0xF3, 0x1C }, //Counter Incremental
 			{ 1004,0xF3, 0x1F }, //Czujnik PM10 i PM2.5
 			{ 1004,0xF3, 0x1F }, //Custom Sensor
-			{ 13,  0xF3, 0x1B }, //Distance
-			{ 18,  0xF3, 0x1D }, //Electric (Instant+Counter)
 			{ 3,   0xFB, 0x02 }, //Gas
 			{ 81,  0x51, 0x01 }, //Humidity
-			{ 16,  0xF3, 0x04 }, //Leaf Wetness
 			{ 246, 0xF6, 0x01 }, //Lux
-			{ 250, 0xFA, 0x01 }, //P1 Smart Meter (Electric)
-			{ 1005,0xF3, 0x21 }, //Managed Counter
-			{ 2,   0xF3, 0x06 }, //Percentage
 			{ 1,   0xF3, 0x09 }, //Pressure (Bar)
-			{ 85,  0x55, 0x03 }, //Rain
 			{ 241, 0xF1, 0x02 }, //RGB Switch
 			{ 1003,0xF1, 0x01 }, //RGBW Switch
-			{ 93,  0x5D, 0x01 }, //Scale
-			{ 1002,0xF4, 0x3E }, //Selector Switch
-			{ 15,  0xF3, 0x03 }, //Soil Moisture
-			{ 20,  0xF3, 0x02 }, //Solar Radiation
-			{ 10,  0xF3, 0x18 }, //Sound Level
 			{ 6,   0xF4, 0x49 }, //Switch
 			{ 80,  0x50, 0x05 }, //Temperature
 			{ 82,  0x52, 0x01 }, //Temp+Hum
@@ -105,11 +90,8 @@ namespace http {
 			{ 247, 0xF7, 0x01 }, //Temp+Baro
 			{ 5,   0xF3, 0x13 }, //Text
 			{ 8,   0xF2, 0x01 }, //Thermostat Setpoint
-			{ 248, 0xF8, 0x01 }, //Usage (Electric)
-			{ 87,  0x57, 0x01 }, //UV
 			{ 12,  0xF3, 0x01 }, //Visibility
 			{ 4,   0xF3, 0x08 }, //Voltage
-			{ 1000,0xF3, 0x1E }, //Waterflow
 			{ 86,  0x56, 0x01 }, //Wind
 			{ 1001,0x56, 0x04 } //Wind+Temp+Chill
 		};
